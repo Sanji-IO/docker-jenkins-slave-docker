@@ -5,8 +5,8 @@ MAINTAINER Zack YL Shih <zackyl.shih@moxa.com>
 USER root
 
 RUN apt-get update && \
-    apt-get install -y sudo && \
-    rm -rf /var/lib/apt/lists/* # 20150224
+    apt-get install -y sudo git-core && \
+    rm -rf /var/lib/apt/lists/* # 20150323
 
 RUN adduser jenkins-slave sudo
 
