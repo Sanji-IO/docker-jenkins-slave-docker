@@ -1,4 +1,4 @@
-FROM sanji/jenkins-swarm-slave:1.22-jdk7
+FROM sanji/jenkins-swarm-slave:1.22-jdk8
 
 MAINTAINER Zack YL Shih <zackyl.shih@moxa.com>
 
